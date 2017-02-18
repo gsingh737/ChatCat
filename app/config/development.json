@@ -4,6 +4,14 @@
   "sessionSecret": "Gurpreetsingh838",
   "fb": {
     "clientID": "220953971642788",
-    "clientSecret" : "28979878caf9768b7c490d9aa5ba3e58"
+    "clientSecret" : "28979878caf9768b7c490d9aa5ba3e58",
+    "callbackURL": "//localhost:3000/auth/facebook/callback",
+    "profileFields": ["id", "displayName", "photos"]
+  },
+  "twitter":{
+    "consumerKey": "UcLVanjPzNn1PS6beky1WXeEz",
+    "consumerSecret": "yEfg2GSICMPCsq0UHLc2waXsMpNgtXjGJR0brZuSD1bEBlMUIS",
+    "callbackURL": "//localhost:3000/auth/twitter/callback",
+    "profileFields": ["id", "displayName", "photos"]
   }
 }
