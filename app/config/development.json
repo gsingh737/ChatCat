@@ -1,17 +1,17 @@
 {
   "host": "http://localhost:3000",
-  "dbURI": "mongodb://root:root@ds153239.mlab.com:53239/chatcatdb737",
+  "dbURI": "MONGODB URI",
   "sessionSecret": "Gurpreetsingh838",
   "fb": {
-    "clientID": "220953971642788",
-    "clientSecret" : "28979878caf9768b7c490d9aa5ba3e58",
-    "callbackURL": "//localhost:3000/auth/facebook/callback",
+    "clientID": "UR FB CLIENTID",
+    "clientSecret" : "UR CLIENTSECRET",
+    "callbackURL": "UR CALLBACK URL",
     "profileFields": ["id", "displayName", "photos"]
   },
   "twitter":{
-    "consumerKey": "UcLVanjPzNn1PS6beky1WXeEz",
-    "consumerSecret": "yEfg2GSICMPCsq0UHLc2waXsMpNgtXjGJR0brZuSD1bEBlMUIS",
-    "callbackURL": "//localhost:3000/auth/twitter/callback",
+    "consumerKey": "UR TWITTER CONSUMER KEY",
+    "consumerSecret": "UR TWITTER CONSUMER SECRET",
+    "callbackURL": "UR CALLBACK URL",
     "profileFields": ["id", "displayName", "photos"]
   },
   "redis": {
