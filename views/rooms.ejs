@@ -9,7 +9,9 @@
 	<script>
 		'use script';
 		$(() => {
-			let socket = io('<%= host%>' + '/roomsList');
+			let socket = io('<%= host%>' + '/roomsList', {
+			    transports: ['websocket']
+			});
 			let newRoomInput = $("input[name = 'roomName']");
 			let renderChatRooms = chatrooms => {
 				let roomsListDiv = $('#roomsListUL');
